@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ogbomoso Empowerment || Gallery</title>
+    <title>Ogbomoso Empowerment || Gallery Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,13 +17,70 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="galleryStyling.css" />
+    <link rel="shortcut icon" href="img/palace-logo.png" type="image/x-icon" />
     <script
       src="https://kit.fontawesome.com/f5ab46ca08.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary pt-3 pb-3 sticky-top">
+      <div class="container-fluid">
+        <div class="navbar-brand d-flex gap-3 me-5 ms-4 social-icons">
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-square-x-twitter"></i>
+        </div>
+        <!-- <a class="navbar-brand" href="#"><img src="img/nav-image.png" alt="" width="40" height="40"></a> -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center text-center me-5 me-5"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav d-flex align-items-center gap-5 mb-2 mb-lg-0">
+            <li class="nav-item me-4">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link" href="aboutUsPage.html">About</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link" href="#">Tracks</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="navbar-brand img-fluid ms-3" href="#">
+                <img src="img/palace-logo.png" alt="" width="80" height="80" />
+              </a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link" href="galleryPage.html">Gallery</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link" href="#">Patners</a>
+            </li>
+          </ul>
+
+          <button class="btn btn-outline-success ms-4" type="submit">
+            Apply Now <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
     <!-- Gallery Title and Carousel -->
     <div class="container text-center">
       <h1 class="fs-3 h1CssStyle">
@@ -64,9 +121,12 @@
             </div>
 
             <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
+              <h3 class="carouselTextColor w-50 m-auto rounded-5">
+                Oba Ghandi Afolabi Olaoye at the Opening Ceremony!!!
+              </h3>
+              <p class="w-75 m-auto carouselParaColor shadow">
+                His Imperial Majesty, the Soun of Ogbomoso, inaugurates the
+                youth program with visionary leadership.
               </p>
             </div>
           </div>
@@ -81,9 +141,13 @@
             </div>
 
             <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>
-                Some representative placeholder content for the second slide.
+              <h3 class="carouselTextColor w-50 m-auto rounded-5">
+                Job Creation Committee Members at the Opening Ceremony!!!
+              </h3>
+              <p class="w-75 m-auto carouselParaColor shadow">
+                The Ogbomosoland Job Creation Committee stands united at the
+                opening ceremony, championing youth empowerment and sustainable
+                community growth.
               </p>
             </div>
           </div>
@@ -97,9 +161,13 @@
               />
             </div>
             <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
+              <h3 class="carouselTextColor w-50 m-auto rounded-5">
+                Students In Training
+              </h3>
+              <p class="w-75 m-auto carouselParaColor shadow">
+                Students engage in hands-on training, gaining practical skills
+                and confidence to build brighter futures for themselves and
+                Ogbomoso.
               </p>
             </div>
           </div>
@@ -126,8 +194,8 @@
     </div>
 
     <!-- Training in Action Gallery Section -->
-    <div class="container text-center d-flex flex-column">
-      <h2 class="fs-5 h2CssStyle">Training in Action</h2>
+    <div class="container text-center d-flex flex-column mb-5">
+      <h2 class="h2CssStyle">Training in Action</h2>
       <div class="gridContainerTraining">
         <div class="gridTrim">
           <img
@@ -331,7 +399,9 @@
           />
         </div>
       </div>
-      <h2>Opening Ceremony and Visits from Dignitaries and Stakeholders</h2>
+      <h2 class="h2CssStyle">
+        Opening Ceremony and Visits from Dignitaries and Stakeholders
+      </h2>
       <div class="gridContainerOpening">
         <div class="gridTrim">
           <img src="Images/Opening (6).jpg" alt="" width="100%" height="100%" />
@@ -526,7 +596,7 @@
           />
         </div>
       </div>
-      <h2>Student Projects</h2>
+      <h2 class="h2CssStyle">Student Projects</h2>
       <div class="gridContainerProject">
         <div class="gridTrim">
           <img
@@ -651,6 +721,54 @@
       </div>
     </div>
 
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="content">
+          <div class="left box">
+              <div class="upper">
+                  <!-- <div class="topic">About Us</div>
+                  <p class="footer-text">LearningCode ia a channel where you can learn HTML, CSS and Javascript along with creative Animations and Effects</p> -->
+                  <img src="img/palace-logo.png" alt="" class="footer-logo">
+              </div>
+              <div class="lower">
+                  <div class="topic">Contact Us</div>
+                  <div class="phone">
+                      <a href="#"><i class="fas fa-phone-volume"></i>+ 007 9089 6767</a>
+                  </div>
+                  <div class="email">
+                      <a href="#"><i class="fas fa-envelope"></i>abc@gmail.com</a>
+                  </div>
+              </div>
+          </div>
+          <div class="middle box">
+              <div class="topic">Our Services</div>
+              <div><a href="#">Home</div>
+              <div><a href="#">About</a></div>
+              <div><a href="#">Tracks</a></div>
+              <div><a href="#">Gallery</a></div>
+              <div><a href="#">Partners</a></div>
+              <div><a href="#">Apply Now</a></div>
+          </div>
+          <div class="right box">
+              <div class="topic">Subscribe us</div>
+              <form action="#">
+                  <input type="text" placeholder="Enter email address">
+                  <input type="submit" value="Send">
+                  <div class="media-icons">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-youtube"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+              </form>
+          </div>
+      </div>
+      <div class="bottom">
+          <p class="footer-text">Copyright &#169; 2025 <a href="#">BOI Empowerment</a> All rights reserved</p>
+      </div>
+  </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"

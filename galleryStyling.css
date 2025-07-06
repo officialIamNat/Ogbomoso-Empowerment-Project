@@ -1,18 +1,43 @@
-body {
-  box-sizing: border-box;
-  padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
   margin: 0;
-  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
 }
 
-.h1CssStyle {
+body {
+  background-color: #f8f9fa;
+}
+
+/* .h1CssStyle {
   color: #121212;
   margin-top: 5rem;
+} */
+
+.carouselTextColor {
+  color: white;
+  /* background-color: rgba(211, 152, 68, 0.8); */
+  padding: 0.7rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.carouselParaColor {
+  color: #d39844;
+  /* background-color: rgba(211, 152, 68, 0.8); */
+  /* padding: 0.7rem; */
+  font-size: 1rem;
+  font-weight: bolder;
 }
 
 .h2CssStyle {
-  color: #121212;
-  margin-top: 5rem;
+  /* color: #121212; */
+  margin-top: 7rem;
+  font-size: 2rem;
+  font-weight: bolder;
 }
 
 div.trim {
@@ -57,4 +82,69 @@ div.gridTrim {
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 0.3rem;
+}
+
+@media (max-width: 992px) {
+  .gridContainerProject {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+  }
+  .gridContainerOpening {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+  }
+  .gridContainerTraining {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .gridContainerProject {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+  }
+  .gridContainerOpening {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+  }
+  .gridContainerTraining {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+  }
+
+  div.gridTrim {
+    max-height: 30vh;
+    max-width: 50vw;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 500px) {
+  .gridContainerProject {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .gridContainerOpening {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .gridContainerTraining {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  div.gridTrim {
+    max-height: 50vh;
+    max-width: 90vw;
+    overflow: hidden;
+  }
 }

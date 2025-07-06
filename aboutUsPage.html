@@ -17,78 +17,153 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="aboutUsStyling.css" />
+    <link rel="shortcut icon" href="img/palace-logo.png" type="image/x-icon" />
     <script
       src="https://kit.fontawesome.com/f5ab46ca08.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary pt-3 pb-3 sticky-top">
+      <div class="container-fluid">
+        <div class="navbar-brand d-flex gap-3 me-5 ms-4 social-icons">
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-square-x-twitter"></i>
+        </div>
+        <!-- <a class="navbar-brand" href="#"><img src="img/nav-image.png" alt="" width="40" height="40"></a> -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center text-center me-5 me-5"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav d-flex align-items-center gap-5 mb-2 mb-lg-0">
+            <li class="nav-item me-4">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link" href="aboutUsPage.html">About</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link" href="#">Tracks</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="navbar-brand img-fluid ms-3" href="#">
+                <img src="img/palace-logo.png" alt="" width="80" height="80" />
+              </a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link" href="galleryPage.html">Gallery</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link" href="#">Patners</a>
+            </li>
+          </ul>
+
+          <button class="btn btn-outline-success ms-4" type="submit">
+            Apply Now <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
     <!-- ABOUT PAGE -Hero Section -->
     <div class="container text-start">
-      <div class="row">
-        <div class="col d-flex flex-column justify-content-center">
-          <h1>Building the Ogbomoso of Tomorrow</h1>
-          <p>
+      <div class="row marginB mt-5">
+        <div class="col-12 col-lg-6 d-inline-flex flex-column px-5 py-2">
+          <div class="container-fluid text-start p-0 mb-5">
+            <p
+              class="d-inline rounded-2 text-warning-emphasis bg-warning-subtle p-2"
+            >
+              Welcome To Ogbomoso
+            </p>
+          </div>
+          <h1 class="h1 fs-3">
+            <b>Building</b> the <br />Ogbomoso of Tomorrow
+          </h1>
+          <p class="firstPara">
             This empowerment scheme is a pioneering effort to turn Ogbomoso into
             a beacon of entrepreneurship, learning, and cultural revival. It is
             a clarion call to harness the power of skill, innovation, and
             collaboration for the greater good of the land.
           </p>
-          <p>
+          <p class="firstPara">
             The program’s goal is simple but powerful: to equip young people
             with life-changing entrepreneurial and vocational skills, across
             both traditional crafts and digital-age professions.
           </p>
-          <button type="button" class="btn btn-warning w-50">
+          <button type="button" class="btn btn-outline-success w-75 myBtn">
             About Ogbomoso Empowerment
           </button>
         </div>
-        <div class="col">
-          <img class="img-fluid" src="Images/Palace 7.jpg" alt="" />
+        <div class="col-12 col-lg-6">
+          <img
+            class="img-fluid"
+            src="Images/Palace 7.jpg"
+            alt=""
+            width="100%"
+          />
         </div>
       </div>
     </div>
 
     <!-- ABOUT PAGE -Who Is it For -->
-    <div class="container text-center">
-      <div class="row">
-        <div class="col">
-          <i class="fa-solid fa-children"></i>
-          <h2>Young people seeking practical skills</h2>
+    <div class="container text-start">
+      <div class="container-fluid text-center p-0 mb-4">
+        <p class="d-inline rounded-2 text-emphasis bg-warning-subtle p-2 fs-3">
+          Who It's For
+        </p>
+      </div>
+      <div class="row iconMainDiv">
+        <div class="col-12 col-md-6 col-lg-3">
+          <i class="fa-solid fa-children iconColour"></i>
+          <h2 class="iconH2">Young people seeking practical skills</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-            cupiditate quae sunt quasi.
+            Equipping youth with real-world vocational training that leads to
+            sustainable income and personal empowerment.
           </p>
         </div>
-        <div class="col">
-          <i class="fa-solid fa-person-dress"></i>
-          <h2>Women Pursuing Economic Freedom</h2>
+        <div class="col-12 col-md-6 col-lg-3">
+          <i class="fa-solid fa-person-dress iconColour"></i>
+          <h2 class="iconH2">Women Pursuing Economic Freedom</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-            cupiditate quae sunt quasi.
+            Empowering women with marketable skills to achieve financial
+            independence and contribute to community development.
           </p>
         </div>
-        <div class="col">
-          <i class="fa-solid fa-user-tie"></i>
-          <h2>Creatives and entrepreneurs</h2>
+        <div class="col-12 col-md-6 col-lg-3">
+          <i class="fa-solid fa-user-tie iconColour"></i>
+          <h2 class="iconH2">Creatives and entrepreneurs</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-            cupiditate quae sunt quasi.
+            Supporting visionaries with tools to launch businesses, innovate,
+            and express their talents commercially.
           </p>
         </div>
-        <div class="col">
-          <i class="fa-solid fa-person-walking-luggage"></i>
-          <h2>Creatives and entrepreneurs</h2>
+        <div class="col-12 col-md-6 col-lg-3">
+          <i class="fa-solid fa-person-walking-luggage iconColour"></i>
+          <h2 class="iconH2">Job Seekers and Change Makers</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-            cupiditate quae sunt quasi.
+            Helping aspiring professionals gain relevant experience to thrive in
+            today’s job market and drive impact.
           </p>
         </div>
       </div>
     </div>
 
-    <figure class="container text-center">
+    <figure class="container text-center quoteCenter">
       <blockquote class="blockquote">
         <p>
           "This is more than training—it’s a seed of transformation. This is not
@@ -101,21 +176,28 @@
       </figcaption>
     </figure>
 
-    <div class="container text-start">
+    <div class="container text-start marginB">
       <div class="row">
-        <div class="col">
-          <img class="img-fluid" src="Images/Palace 7.jpg" alt="" />
+        <div class="col-12 col-md-12 col-lg-6">
+          <img
+            class="img-fluid"
+            src="Images/Opening (15).jpg"
+            alt=""
+            width="100%"
+          />
         </div>
 
-        <div class="col d-flex flex-column justify-content-center">
-          <h1>The Skill Aquisition Program</h1>
-          <p>
+        <div
+          class="col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center"
+        >
+          <h1 class="text-start mb-2">The Skill Aquisition Program</h1>
+          <p class="text-start mb-5">
             The initiative is not a one-off; it's an unfolding legacy aligned
             with the Soun's strategic development plan to raise a skilled,
             self-sufficient population.
           </p>
 
-          <button type="button" class="btn btn-warning w-50">
+          <button type="button" class="btn btn-outline-success w-50 myBtn">
             About The Program
           </button>
         </div>
@@ -123,27 +205,47 @@
     </div>
 
     <div
-      class="container text-center d-flex flex-column justify-content-center"
+      class="container text-center d-flex flex-column justify-content-center marginB"
     >
       <div class="text-center">
         <h2>A Partnership for Progress</h2>
         <p>This program is made possible by the partnership between:</p>
       </div>
       <div class="container text-center">
-        <div class="row">
-          <div class="col d-flex flex-column justify-content-center">
-            <img class="img-fluid" src="Images/Palace 7.jpg" alt="" />
+        <div class="row mb-4">
+          <div
+            class="col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center"
+          >
+            <div class="ImgTrim mb-2">
+              <img
+                class="img-fluid"
+                src="Images/Palace 3.jpg"
+                alt=""
+                width="100%"
+                height="100%"
+              />
+            </div>
             <h3>The Palace of the Soun of Ogbomoso</h3>
           </div>
 
-          <div class="col d-flex flex-column justify-content-center">
-            <img class="img-fluid" src="Images/Palace 7.jpg" alt="" />
+          <div
+            class="col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center"
+          >
+            <div class="ImgTrim mb-2">
+              <img
+                class="img-fluid"
+                src="img/boi.png"
+                alt=""
+                width="100%"
+                height="100%"
+              />
+            </div>
             <h3>Bank of Industry</h3>
           </div>
         </div>
       </div>
       <div>
-        <p>
+        <p class="w-75 m-auto">
           BOI has provided essential support in the form of funding, technical
           expertise, and strategic input, while the Palace has anchored the
           vision and mobilized the community. in the form of funding, technical
@@ -153,6 +255,53 @@
       </div>
     </div>
 
+    <!-- FOOTER -->
+    <footer>
+      <div class="content">
+          <div class="left box">
+              <div class="upper">
+                  <!-- <div class="topic">About Us</div>
+                  <p class="footer-text">LearningCode ia a channel where you can learn HTML, CSS and Javascript along with creative Animations and Effects</p> -->
+                  <img src="img/palace-logo.png" alt="" class="footer-logo">
+              </div>
+              <div class="lower">
+                  <div class="topic">Contact Us</div>
+                  <div class="phone">
+                      <a href="#"><i class="fas fa-phone-volume"></i>+ 007 9089 6767</a>
+                  </div>
+                  <div class="email">
+                      <a href="#"><i class="fas fa-envelope"></i>abc@gmail.com</a>
+                  </div>
+              </div>
+          </div>
+          <div class="middle box">
+              <div class="topic">Our Services</div>
+              <div><a href="#">Home</div>
+              <div><a href="#">About</a></div>
+              <div><a href="#">Tracks</a></div>
+              <div><a href="#">Gallery</a></div>
+              <div><a href="#">Partners</a></div>
+              <div><a href="#">Apply Now</a></div>
+          </div>
+          <div class="right box">
+              <div class="topic">Subscribe us</div>
+              <form action="#">
+                  <input type="text" placeholder="Enter email address">
+                  <input type="submit" value="Send">
+                  <div class="media-icons">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-youtube"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+              </form>
+          </div>
+      </div>
+      <div class="bottom">
+          <p class="footer-text">Copyright &#169; 2025 <a href="#">BOI Empowerment</a> All rights reserved</p>
+      </div>
+  </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
