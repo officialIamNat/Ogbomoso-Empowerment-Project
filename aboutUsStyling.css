@@ -32,7 +32,7 @@ body {
 }
 
 .iconColour {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #d39844;
   margin-bottom: 1rem;
 }
@@ -40,6 +40,10 @@ body {
 .iconH2 {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.iconPara {
+  font-size: 1.2rem;
 }
 
 .quoteCenter {
@@ -53,14 +57,27 @@ div.ImgTrim {
   overflow: hidden;
 }
 
-/* Copied */
-/* .social-icons i {
-  color: #a87733;
-  font-size: 20px;
-  transition: all 0.3s ease;
-  cursor: pointer;
+/*  */
+@media (max-width: 992px) {
+  .colPad {
+    padding-bottom: 3rem;
+  }
 }
 
-.social-icons i:hover {
-  color: #d39844;
-} */
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+  .colPad {
+    padding-bottom: 3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+  .colPad {
+    padding-bottom: 3rem;
+  }
+}
