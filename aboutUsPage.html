@@ -26,61 +26,50 @@
     ></script>
   </head>
   <body>
-    <!-- <div class="container"> -->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary pt-3 pb-3 sticky-top">
-      <div class="container-fluid">
-        <div class="navbar-brand d-flex gap-3 me-5 ms-4 social-icons">
-          <i class="fa-brands fa-linkedin"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-square-x-twitter"></i>
-        </div>
-        <!-- <a class="navbar-brand" href="#"><img src="img/nav-image.png" alt="" width="40" height="40"></a> -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-center text-center me-5 me-5"
-          id="navbarSupportedContent"
-        >
-          <ul class="navbar-nav d-flex align-items-center gap-5 mb-2 mb-lg-0">
-            <li class="nav-item me-4">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item me-4">
-              <a class="nav-link" href="aboutUsPage.html">About</a>
-            </li>
-            <li class="nav-item me-4">
-              <a class="nav-link" href="track pages.html">Tracks</a>
-            </li>
-            <li class="nav-item me-4">
-              <a class="navbar-brand img-fluid ms-3" href="#">
-                <img src="img/palace-logo.png" alt="" width="80" height="80" />
-              </a>
-            </li>
-            <li class="nav-item me-4">
-              <a class="nav-link" href="galleryPage.html">Gallery</a>
-            </li>
-            <li class="nav-item me-4">
-              <a class="nav-link" href="#">Patners</a>
-            </li>
-          </ul>
-
-          <button class="btn btn-outline-success ms-4" type="submit">
-            Apply Now <i class="fa-solid fa-arrow-right"></i>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary pt-3 pb-3 sticky-top">
+      <div class="container-fluid d-flex justify-content-between">
+          <div class="navbar-brand d-flex gap-3 ms-4 social-icons">
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-square-x-twitter"></i>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
           </button>
-        </div>
+          <div class="collapse navbar-collapse justify-content-center text-center"
+              id="navbarSupportedContent">
+
+              <ul class="navbar-nav d-flex align-items-center justify-content-between gap-5 mb-2 mb-lg-0">
+                  <li class="nav-item ">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item ">
+                      <a class="nav-link" href="aboutUsPage.html">About</a>
+                  </li>
+                  <li class="nav-item ">
+                      <a class="nav-link" href="track pages.html">Tracks</a>
+                  </li>
+                  <li class="nav-item ">
+                      <a class="navbar-brand img-fluid ms-3" href="index.html">
+                          <img src="img/palace-logo.png" alt="" width="80" height="80">
+                      </a>
+                  </li>
+                  <li class="nav-item ">
+                      <a class="nav-link" href="galleryPage.html">Gallery</a>
+                  </li>
+                  <li class="nav-item ">
+                      <a class="nav-link" href="partnersPage.html">Patnership</a>
+                  </li>
+                  <li class="nav-item btn-outline-success applyBorder">
+                      <a class="nav-link" href="apply.html">Apply Now <i class="fa-solid fa-arrow-right"></i></a>
+                  </li>
+              </ul>
+          </div>
       </div>
-    </nav>
-  <!-- </div> -->
+  </nav>
     
 
     <!-- ABOUT PAGE -Hero Section -->
@@ -279,15 +268,21 @@
           </div>
           <div class="middle box">
               <div class="topic">Our Services</div>
-              <div><a href="#">Home</div>
-              <div><a href="#">About</a></div>
-              <div><a href="#">Tracks</a></div>
-              <div><a href="#">Gallery</a></div>
-              <div><a href="#">Partners</a></div>
-              <div><a href="#">Apply Now</a></div>
+              <div class="service-container">
+                  <div class="first-service">
+                      <div><a href="#">Home</div>
+                      <div><a href="#">About</a></div>
+                      <div><a href="#">Tracks</a></div>
+                  </div>
+                  <div class="second-service">
+                      <div><a href="#">Gallery</a></div>
+                      <div><a href="#">Partners</a></div>
+                      <div><a href="#">Apply Now</a></div>
+                  </div>
+              </div>
           </div>
           <div class="right box">
-              <div class="topic">Subscribe us</div>
+              <div class="topic">Subscribe To Our Newsletter</div>
               <form action="#">
                   <input type="text" placeholder="Enter email address">
                   <input type="submit" value="Send">

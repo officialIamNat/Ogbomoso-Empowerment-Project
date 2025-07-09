@@ -15,157 +15,148 @@
 <body>
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary pt-3 pb-3 sticky-top">
-        <div class="container-fluid">
-            <div class="navbar-brand d-flex gap-3 me-5 ms-4 social-icons">
+        <div class="container-fluid d-flex justify-content-between">
+            <div class="navbar-brand d-flex gap-3 ms-4 social-icons">
                 <i class="fa-brands fa-linkedin"></i>
                 <i class="fa-brands fa-instagram"></i>
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-square-x-twitter"></i>
             </div>
-            <!-- <a class="navbar-brand" href="#"><img src="img/nav-image.png" alt="" width="40" height="40"></a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-center text-center me-5 me-5"
+            <div class="collapse navbar-collapse justify-content-center text-center"
                 id="navbarSupportedContent">
 
-                <ul class="navbar-nav d-flex align-items-center gap-5 mb-2 mb-lg-0">
-                    <li class="nav-item me-4">
+                <ul class="navbar-nav d-flex align-items-center justify-content-between gap-5 mb-2 mb-lg-0">
+                    <li class="nav-item ">
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item me-4">
+                    <li class="nav-item ">
                         <a class="nav-link" href="aboutUsPage.html">About</a>
                     </li>
-                    <li class="nav-item me-4">
+                    <li class="nav-item ">
                         <a class="nav-link" href="track pages.html">Tracks</a>
                     </li>
-                    <li class="nav-item me-4">
+                    <li class="nav-item ">
                         <a class="navbar-brand img-fluid ms-3" href="#">
-                            <img src="palace-logo.png" alt="" width="80" height="80">
+                            <img src="img/palace-logo.png" alt="" width="80" height="80">
                         </a>
                     </li>
-                    <li class="nav-item me-4">
+                    <li class="nav-item ">
                         <a class="nav-link" href="galleryPage.html">Gallery</a>
                     </li>
-                    <li class="nav-item me-4">
-                        <a class="nav-link" href="#">Patners</a>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="partnersPage.html">Patners</a>
+                    </li>
+                    <li class="nav-item btn-outline-success applyBorder">
+                        <a class="nav-link" href="apply.html">Apply Now <i class="fa-solid fa-arrow-right"></i></a>
                     </li>
                 </ul>
-
-                <button class="btn btn-outline-success ms-4" type="submit">
-                    Apply Now <i class="fa-solid fa-arrow-right"></i>
-                </button>
             </div>
         </div>
     </nav>
 
-    <!-- <div style="display:flex; justify-self: center; padding: 200px 50PX;">
-        <h1>Every track in this program is a gateway — to income, to purpose, and to a stronger Ogbomoso.
-        </h1>
-    </div> -->
-    <div class="tracks-card">
-        <div class="track-container">
-            <h1>Every track in this program is a gateway — to income, to purpose, and to a stronger Ogbomoso.
-            </h1>
-            <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+    <section class="featured-tracks">
+        <div class="track-top">
+            <h1>Featured Tracks</h1>
+            <p>
+                Every track in this program is a gateway — to income, to purpose, and to a stronger Ogbomoso.
+            </p>
+        </div>
+        <div class="tracks-container">
+            <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="Images/Opening (7).jpg" class="card-img-top" alt="...">
+                    <div class="card h-100 w-100">
+                        <img src="Tracks/Webdesign.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Information Technology Track</h5>
-                            <p class="card-text">A dynamic and forward-looking track designed to equip learners with key
-                                digital competencies: which includes web design, data analytics, UI/UX design & networking.
-                            </p>
+                            <h5 class="card-title">Web Design & Development</h5>
+                            <p class="card-text">Learn to build responsive websites using HTML, CSS, and JavaScript. Gain the skills to craft professional web solutions for businesses, brands, or personal portfolios in the digital space.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="Images/Opening (14).jpg" class="card-img-top" alt="...">
+                    <div class="card h-100 w-100">
+                        <img src="Tracks/Baking.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Baking & Pastries</h5>
-                            <p class="card-text">Master the art of baking — from bread to cakes — and explore business
-                                opportunities in food production..</p>
+                            <p class="card-text">Turn ingredients into income. Learn the techniques of making bread, cakes, snacks, and other baked goods — along with business tips to help you start or grow a successful bakery venture.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="Images/Training (4).jpg" class="card-img-top" alt="...">
+                    <div class="card h-100 w-100">
+                        <img src="Tracks/UIUX.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Adire & Aso Oke Fabric Production</h5>
-                            <p class="card-text">Learn the timeless Yoruba techniques of hand-dyeing and weaving traditional
-                                textiles with deep cultural roots..</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="Images/Training (17).jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Fashion Designing</h5>
-                            <p class="card-text">Learn the timeless Yoruba techniques of hand-dyeing and weaving traditional
-                                textiles with deep cultural roots..</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="Images/Training (25).jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Event Planning and Decoration</h5>
-                            <p class="card-text">Learn the timeless Yoruba techniques of hand-dyeing and weaving traditional
-                                textiles with deep cultural roots..</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="Images/Training (33).jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Household and Industrial Cleaning Production</h5>
-                            <p class="card-text">Learn the timeless Yoruba techniques of hand-dyeing and weaving traditional
-                                textiles with deep cultural roots..</p>
+                            <h5 class="card-title">UI/UX Design</h5>
+                            <p class="card-text">Master the art of creating seamless digital experiences. Understand design thinking, wireframing, and user-centered design that meets real-world needs and enhances usability across web and mobile platforms.</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="Dignitries Visit 18.jpg" class="card-img-top" alt="...">
+                    <div class="card h-100 w-100">
+                        <img src="Tracks/Household & Industrial Cleaning Production.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Soap & Household Product Making</h5>
-                            <p class="card-text">Create market-ready cleaning and body-care products using safe, effective
-                                formulations.</p>
+                            <h5 class="card-title">Household & Industrial Cleaning Production</h5>
+                            <p class="card-text">Gain hands-on training in producing soaps, detergents, and disinfectants. This track teaches safe formulation and packaging for everyday and commercial cleaning needs — ready for immediate business or employment.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="Dignitries Visit 18.jpg" class="card-img-top" alt="...">
+                    <div class="card h-100 w-100">
+                        <img src="Tracks/Data.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Analysis</h5>
+                            <p class="card-text">Develop the ability to collect, interpret, and visualize data using tools like Excel and Power BI. Turn raw information into meaningful insights that drive smart decision-making in any industry.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 w-100">
+                        <img src="Tracks/Adire.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Adire & Aso Oke Production</h5>
+                            <p class="card-text">Learn the ancient craft of Yoruba textile making through dyeing and weaving techniques. This track blends tradition with modern appeal, empowering participants to create culturally rich and marketable fabrics.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+                <div class="col">
+                    <div class="card h-100 w-100">
+                        <img src="Tracks/Networking.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Computer Networking</h5>
+                            <p class="card-text">Build foundational knowledge in setting up, maintaining, and securing computer networks. Learn how the internet works behind the scenes and gain skills valued across IT support and cybersecurity fields.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 w-100">
+                        <img src="Tracks/Fashion.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Fashion Design</h5>
+                            <p class="card-text">Discover how to bring creative clothing ideas to life. Learn fabric selection, cutting, sewing, and finishing — building the foundation for a fashion brand or professional tailoring service.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 w-100">
+                        <img src="Tracks/Event Planning & Decoration.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Event Planning & Decoration</h5>
-                            <p class="card-text">Train to plan, organize, and decorate memorable events — from birthdays to
-                                weddings and corporate functions.</p>
+                            <p class="card-text">Master the art of creating memorable events. From organizing logistics to designing beautiful spaces, this track teaches you how to deliver professional results for weddings, birthdays, and corporate functions.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="Dignitries Visit 18.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Industrial & Household Cleaning</h5>
-                            <p class="card-text">Gain the skills and techniques needed to offer professional cleaning
-                                services at scale.</p>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
+            </div>
         </div>
-    </div>
+    </section>
 
 
     <footer>
@@ -174,7 +165,7 @@
                 <div class="upper">
                     <!-- <div class="topic">About Us</div>
                     <p class="footer-text">LearningCode ia a channel where you can learn HTML, CSS and Javascript along with creative Animations and Effects</p> -->
-                    <img src="palace-logo.png" alt="" class="footer-logo">
+                    <img src="img/palace-logo.png" alt="" class="footer-logo">
                 </div>
                 <div class="lower">
                     <div class="topic">Contact Us</div>
@@ -188,15 +179,21 @@
             </div>
             <div class="middle box">
                 <div class="topic">Our Services</div>
-                <div><a href="#">Home</div>
-                <div><a href="#">About</a></div>
-                <div><a href="#">Tracks</a></div>
-                <div><a href="#">Gallery</a></div>
-                <div><a href="#">Partners</a></div>
-                <div><a href="#">Apply Now</a></div>
+                <div class="service-container">
+                    <div class="first-service">
+                        <div><a href="#">Home</div>
+                        <div><a href="#">About</a></div>
+                        <div><a href="#">Tracks</a></div>
+                    </div>
+                    <div class="second-service">
+                        <div><a href="#">Gallery</a></div>
+                        <div><a href="#">Partners</a></div>
+                        <div><a href="#">Apply Now</a></div>
+                    </div>
+                </div>
             </div>
             <div class="right box">
-                <div class="topic">Subscribe us</div>
+                <div class="topic">Subscribe To Our Newsletter</div>
                 <form action="#">
                     <input type="text" placeholder="Enter email address">
                     <input type="submit" value="Send">
