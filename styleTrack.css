@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.social-icons i {
+    color: #a87733;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.social-icons i:hover {
+    color: #D39844;
+}
+
+.collapse {
+    position: relative;
+    right: 70px;
+}
+.collapse ul li a {
+    color: #a87733;
+}
+.collapse ul li .nav-link.active {
+    color: #D39844;
+}
+.collapse ul li a:hover {
+    color: #D39844;
+}
+.collapse button {
+    color: #a87733;
+    font-weight: 500;
+    border: 1px solid #a87733;
+    position: relative;
+    left: 80px;
+}
+.collapse button:hover {
+    color: #fff;
+    font-weight: 500;
+    border: 1px solid #a87733;
+    background: #D39844;
+}
+
+.tracks-card {
+    max-width: 1250px;
+    margin: 0 auto;
+    width: 100%;
+}
+.track-container {
+    margin-top: 80px;
+}
+.track-container h1{
+    color: #121212;
+    text-align: center;
+}
+.card-div {
+    margin-top: 90px;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background: #111;
+}
+footer .content{
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .content a{
+    color: #fff;
+}
+.footer-text {
+    color: #fff;
+}
+footer .content .box{
+    width: 33%;
+    transition: all 0.4s ease;
+}
+footer .content .topic{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 16px;
+}
+footer .content p{
+    text-align: justify;
+}
+footer .content .lower{
+    margin: 20px 0 5px 0;
+}
+.footer-logo{
+    width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+}
+footer .content .lower i{
+    padding-right: 16px;
+}
+footer .content .middle{
+    padding-left: 80px;
+}
+footer .content .middle a{
+    line-height: 32px;
+}
+footer .content .right input[type="text"]{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    color: #d9d9d9;
+    background: #000;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 2px solid #222222;
+}
+footer .content .right input[type="submit"]{
+    height: 42px;
+    width: 100%;
+    font-size: 18px;
+    color: #d9d9d9;
+    background: #a87733;
+    outline: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 12px;
+    border: 2px solid #D39844;
+    transition: all 0.3s ease-in-out;
+}
+.content .right input[type="submit"]:hover{
+    background: none;
+    color: #a87733;
+}
+footer .content .media-icons a{
+    font-size: 16px;
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 43px;
+    border-radius: 5px;
+    border: 2px solid #222222;
+    margin: 30px 5px 0 0;
+    transition: all 0.3s ease;
+}
+.content .media-icons a:hover{
+    border-color: #D39844;
+}
+footer .bottom{
+    width: 100%;
+    text-align: center;
+    color: #d9d9d9;
+    padding: 0 40px 5px 0;
+}
+footer .bottom a{
+    color: #a87733;
+}
+footer a{
+    transition: all 0.3s ease;
+}
+footer a:hover{
+    color: #D39844;
+}
+@media (max-width:1100px) {
+    footer .content .middle{
+        padding-left: 50px;
+    }
+}
+@media (max-width:950px) {
+    footer .content .box{
+        width: 50%;
+    }
+    .content .right{
+        margin-top: 40px;
+    }
+}
+@media (max-width:950px) {
+    .vision-grid {
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    
+    }
+    .apply-container {
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .testimony-grid {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        width: 100%;
+    }
+    footer{
+        position: relative;
+    }
+    footer .content .box{
+        width: 100%;
+        margin-top: 30px;
+    }
+    footer .content .middle{
+        padding-left: 0;
+    }
+}
