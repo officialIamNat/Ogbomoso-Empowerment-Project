@@ -56,15 +56,25 @@ p {
 }
 
 .applyBorder {
-  border: 1px solid #a87733;
-  border-radius: 50px;
+  border: 1px solid #d39844;
+  border-radius: 5px;
+  color: #fff;
+  /* background-color: #d39844; */
+}
+
+.applyBorder a {
+  color: #fff;
+  /* background-color: #d39844; */
 }
 
 .applyBorder:hover {
-  color: #fff;
   border: 1px solid #d39844;
-  /* background-color: #d39844; */
 }
+
+/* .applyTextBtn {
+  color: #fff;
+  background-color: #d39844;
+} */
 
 /* Hero section */
 .hero-img {
@@ -259,8 +269,14 @@ p {
   font-size: 50px;
   font-weight: 600;
 }
+
+.start-container p {
+  width: 80%;
+  margin: auto;
+}
+
 .starts-grid {
-  margin-top: 100px;
+  margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 100%;
@@ -300,6 +316,12 @@ p {
   padding: 50px 20px;
   text-align: center;
 }
+
+.testimonials p {
+  width: 70%;
+  margin: auto;
+}
+
 .testimony-grid {
   margin-top: 50px;
   display: grid;

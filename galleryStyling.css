@@ -44,9 +44,12 @@ body {
 
 .h2CssStyle {
   /* color: #121212; */
+  margin: auto;
   margin-top: 7rem;
+  margin-bottom: 0.5rem;
   font-size: 2rem;
   font-weight: bolder;
+  width: 70%;
 }
 
 div.trim {
